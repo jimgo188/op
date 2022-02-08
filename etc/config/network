@@ -11,7 +11,7 @@ config globals 'globals'
 
 config interface 'lan'
 	option type 'bridge'
-	option ifname 'eth0'
+	option ifname 'eth0 eth1 eth2 eth3 eth4'
 	option proto 'static'
 	option ipaddr '192.168.50.1'
 	option netmask '255.255.255.0'
